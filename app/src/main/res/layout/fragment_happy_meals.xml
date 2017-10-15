@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Happy Meals"
+        android:id="@+id/title_happymeals"
+        android:layout_gravity="left|top" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="110dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Not just for kids, our happy meals are great for everyone! You can get a choice of fries or a fruit bag with your happy meal and we have a great range of options for what you can have too!"
+        android:id="@+id/tvmeals"
+        android:layout_below="@+id/title_happymeals"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/happymeal"
+        android:layout_below="@+id/tvmeals"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="You could get a cheeseburger or chicken nuggets in your Happy Meal or why not try our new Chicken Wrap which has ketchup, lettuce and a chicken select in it!"
+        android:id="@+id/textView10"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Breakfast"
+        android:id="@+id/title_breakfast"
+        android:layout_gravity="left|top" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="110dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="We serve our breakfast menu until 10:30am every day and you can treat yourself to some pancakes and syrup or even a double sausage and egg McMuffin."
+        android:id="@+id/tvmeals"
+        android:layout_below="@+id/title_breakfast"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/breakfast"
+        android:layout_below="@+id/tvmeals"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="We have bagles, rolls, muffins and wraps. All can be bought with a meal, which includes a drink and a hash brown (not all meals get a hash brown). You can get sausage and egg or bacon and egg on you muffin and can even double up for an extra 40p!"
+        android:id="@+id/textView10"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

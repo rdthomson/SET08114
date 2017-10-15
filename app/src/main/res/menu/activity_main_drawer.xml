@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Meals"
+            android:title="Meals" />
+        <item
+            android:id="@+id/HappyMeals"
+            android:title="Happy Meals" />
+        <item
+            android:id="@+id/SaverMenu"
+            android:title="Saver Menu" />
+        <item
+            android:id="@+id/Breakfast"
+            android:title="Breakfast" />
+        <item
+            android:id="@+id/DessertsAndTreats"
+            android:title="Desserts and Treats" />
+        <item
+            android:id="@+id/McCafe"
+            android:title="McCafe" />
+        <item
+            android:id="@+id/Drinks"
+            android:title="Drinks" />
+    </group>
+
+</menu>
